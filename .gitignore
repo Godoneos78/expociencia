@@ -1,0 +1,42 @@
+# === PYTHON / DJANGO ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.log
+
+# Entornos virtuales
+venv/
+.env
+.env.*
+
+# Archivos de base de datos locales
+db.sqlite3
+
+# Archivos de compilación / cache
+*.pot
+*.pyc
+
+# === NODE / REACT ===
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# === SISTEMA / EDITOR ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OTROS ===
+# Archivos temporales
+*.tmp
+*.bak
